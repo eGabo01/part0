@@ -6,23 +6,23 @@ browser takes the 302 URL redirect
 request back to reload back a notes page
 end note
 
-browser -->web: request URL metod GET: https://studies.cs.helsinki.fi/exampleapp/notes
+browser -->web: request URL method GET: https://studies.cs.helsinki.fi/exampleapp/notes
 web --> browser: Respond: HTML status code 200
 
-browser  --> web: request URL  metod GET:https://studies.cs.helsinki.fi/exampleapp/main.css
+browser  --> web: request URL  method GET:https://studies.cs.helsinki.fi/exampleapp/main.css
 web --> browser: main.css
 
-browser  --> web: request URL metod GET:https://studies.cs.helsinki.fi/exampleapp/main.js
+browser  --> web: request URL method GET:https://studies.cs.helsinki.fi/exampleapp/main.js
 web --> browser : main.js
 note over browser:
 browser starts executing js-code
 that requests JSON data from server 
 end note
 
-browser -->web: request URL metod GET:https://studies.cs.helsinki.fi/favicon.ico
+browser -->web: request URL method GET:https://studies.cs.helsinki.fi/favicon.ico
 web-->browser: .ico
 
-browser --> web:request URL metod GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+browser --> web:request URL method GET: https://studies.cs.helsinki.fi/exampleapp/data.json
 web-->browser: data.json
 
 note over browser:
